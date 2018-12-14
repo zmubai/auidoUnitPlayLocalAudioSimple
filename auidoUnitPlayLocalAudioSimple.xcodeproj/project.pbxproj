@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB5570CF21C2A717001E3A20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570CE21C2A717001E3A20 /* AppDelegate.m */; };
+		DB5570D221C2A717001E3A20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570D121C2A717001E3A20 /* ViewController.m */; };
+		DB5570D521C2A717001E3A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5570D321C2A717001E3A20 /* Main.storyboard */; };
+		DB5570D721C2A719001E3A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5570D621C2A719001E3A20 /* Assets.xcassets */; };
+		DB5570DA21C2A719001E3A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5570D821C2A719001E3A20 /* LaunchScreen.storyboard */; };
+		DB5570DD21C2A71A001E3A20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570DC21C2A71A001E3A20 /* main.m */; };
+		DB5570E621C2AA27001E3A20 /* ELAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570E521C2AA27001E3A20 /* ELAudioSession.m */; };
+		DB5570EA21C2AA7C001E3A20 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570E921C2AA7C001E3A20 /* AudioPlayer.m */; };
+		DB5570F021C2AE35001E3A20 /* AVAudioSession+RounteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570EF21C2AE35001E3A20 /* AVAudioSession+RounteUtils.m */; };
+		DB5570F321C2B2D6001E3A20 /* hongri.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB5570F221C2B2D6001E3A20 /* hongri.mp3 */; };
+		DB5570F621C2C483001E3A20 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5570F521C2C483001E3A20 /* CommonUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB54A16921C38AE000525AC6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB5570CA21C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auidoUnitPlayLocalAudioSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5570CD21C2A717001E3A20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB5570CE21C2A717001E3A20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB5570D021C2A717001E3A20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB5570D121C2A717001E3A20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB5570D421C2A717001E3A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5570D621C2A719001E3A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5570D921C2A719001E3A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5570DB21C2A71A001E3A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5570DC21C2A71A001E3A20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5570E421C2AA27001E3A20 /* ELAudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELAudioSession.h; sourceTree = "<group>"; };
+		DB5570E521C2AA27001E3A20 /* ELAudioSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELAudioSession.m; sourceTree = "<group>"; };
+		DB5570E821C2AA7C001E3A20 /* AudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		DB5570E921C2AA7C001E3A20 /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		DB5570EE21C2AE35001E3A20 /* AVAudioSession+RounteUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+RounteUtils.h"; sourceTree = "<group>"; };
+		DB5570EF21C2AE35001E3A20 /* AVAudioSession+RounteUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+RounteUtils.m"; sourceTree = "<group>"; };
+		DB5570F221C2B2D6001E3A20 /* hongri.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hongri.mp3; sourceTree = "<group>"; };
+		DB5570F421C2C483001E3A20 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		DB5570F521C2C483001E3A20 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5570C721C2A717001E3A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5570C121C2A716001E3A20 = {
+			isa = PBXGroup;
+			children = (
+				DB54A16921C38AE000525AC6 /* README.md */,
+				DB5570CC21C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple */,
+				DB5570CB21C2A717001E3A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5570CB21C2A717001E3A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5570CA21C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5570CC21C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple */ = {
+			isa = PBXGroup;
+			children = (
+				DB5570CD21C2A717001E3A20 /* AppDelegate.h */,
+				DB5570CE21C2A717001E3A20 /* AppDelegate.m */,
+				DB5570F421C2C483001E3A20 /* CommonUtil.h */,
+				DB5570F521C2C483001E3A20 /* CommonUtil.m */,
+				DB5570F121C2B2BF001E3A20 /* localAudioFile */,
+				DB5570E321C2A9EB001E3A20 /* player */,
+				DB5570D021C2A717001E3A20 /* ViewController.h */,
+				DB5570D121C2A717001E3A20 /* ViewController.m */,
+				DB5570D321C2A717001E3A20 /* Main.storyboard */,
+				DB5570D621C2A719001E3A20 /* Assets.xcassets */,
+				DB5570D821C2A719001E3A20 /* LaunchScreen.storyboard */,
+				DB5570DB21C2A71A001E3A20 /* Info.plist */,
+				DB5570DC21C2A71A001E3A20 /* main.m */,
+			);
+			path = auidoUnitPlayLocalAudioSimple;
+			sourceTree = "<group>";
+		};
+		DB5570E321C2A9EB001E3A20 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				DB5570E721C2AA62001E3A20 /* audioSession */,
+				DB5570E821C2AA7C001E3A20 /* AudioPlayer.h */,
+				DB5570E921C2AA7C001E3A20 /* AudioPlayer.m */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		DB5570E721C2AA62001E3A20 /* audioSession */ = {
+			isa = PBXGroup;
+			children = (
+				DB5570E421C2AA27001E3A20 /* ELAudioSession.h */,
+				DB5570E521C2AA27001E3A20 /* ELAudioSession.m */,
+				DB5570EE21C2AE35001E3A20 /* AVAudioSession+RounteUtils.h */,
+				DB5570EF21C2AE35001E3A20 /* AVAudioSession+RounteUtils.m */,
+			);
+			path = audioSession;
+			sourceTree = "<group>";
+		};
+		DB5570F121C2B2BF001E3A20 /* localAudioFile */ = {
+			isa = PBXGroup;
+			children = (
+				DB5570F221C2B2D6001E3A20 /* hongri.mp3 */,
+			);
+			path = localAudioFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5570C921C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5570E021C2A71A001E3A20 /* Build configuration list for PBXNativeTarget "auidoUnitPlayLocalAudioSimple" */;
+			buildPhases = (
+				DB5570C621C2A717001E3A20 /* Sources */,
+				DB5570C721C2A717001E3A20 /* Frameworks */,
+				DB5570C821C2A717001E3A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = auidoUnitPlayLocalAudioSimple;
+			productName = auidoUnitPlayLocalAudioSimple;
+			productReference = DB5570CA21C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5570C221C2A717001E3A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = zengbailiang;
+				TargetAttributes = {
+					DB5570C921C2A717001E3A20 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = DB5570C521C2A717001E3A20 /* Build configuration list for PBXProject "auidoUnitPlayLocalAudioSimple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5570C121C2A716001E3A20;
+			productRefGroup = DB5570CB21C2A717001E3A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5570C921C2A717001E3A20 /* auidoUnitPlayLocalAudioSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5570C821C2A717001E3A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5570DA21C2A719001E3A20 /* LaunchScreen.storyboard in Resources */,
+				DB5570D721C2A719001E3A20 /* Assets.xcassets in Resources */,
+				DB5570D521C2A717001E3A20 /* Main.storyboard in Resources */,
+				DB5570F321C2B2D6001E3A20 /* hongri.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5570C621C2A717001E3A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5570D221C2A717001E3A20 /* ViewController.m in Sources */,
+				DB5570DD21C2A71A001E3A20 /* main.m in Sources */,
+				DB5570F621C2C483001E3A20 /* CommonUtil.m in Sources */,
+				DB5570F021C2AE35001E3A20 /* AVAudioSession+RounteUtils.m in Sources */,
+				DB5570EA21C2AA7C001E3A20 /* AudioPlayer.m in Sources */,
+				DB5570E621C2AA27001E3A20 /* ELAudioSession.m in Sources */,
+				DB5570CF21C2A717001E3A20 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB5570D321C2A717001E3A20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5570D421C2A717001E3A20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB5570D821C2A719001E3A20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5570D921C2A719001E3A20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5570DE21C2A71A001E3A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB5570DF21C2A71A001E3A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5570E121C2A71A001E3A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = auidoUnitPlayLocalAudioSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.auidoUnitPlayLocalAudioSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5570E221C2A71A001E3A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = auidoUnitPlayLocalAudioSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.dogdog.com.auidoUnitPlayLocalAudioSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5570C521C2A717001E3A20 /* Build configuration list for PBXProject "auidoUnitPlayLocalAudioSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5570DE21C2A71A001E3A20 /* Debug */,
+				DB5570DF21C2A71A001E3A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5570E021C2A71A001E3A20 /* Build configuration list for PBXNativeTarget "auidoUnitPlayLocalAudioSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5570E121C2A71A001E3A20 /* Debug */,
+				DB5570E221C2A71A001E3A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5570C221C2A717001E3A20 /* Project object */;
+}
